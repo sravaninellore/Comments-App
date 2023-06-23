@@ -1,0 +1,83 @@
+.comments-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.comments-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.comments-count {
+  font-size: 18px;
+  color: #475569;
+}
+
+.add-comment-form {
+  margin-top: 20px;
+}
+
+.add-comment-form input,
+.add-comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.add-comment-form button {
+  padding: 10px 20px;
+  background-color: #0284c7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comments-list {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.no-comments {
+  color: #64748b;
+  font-style: italic;
+}
+
+.timestamp {
+  color: #7e858e;
+  font-size: 12px;
+}
+
+.comment-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.like-button,
+.delete-button {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: none;
+  background: transparent;
+  color: #64748b;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.like-button img,
+.delete-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.like-button:hover,
+.delete-button:hover {
+  color: #1e293b;
+}
